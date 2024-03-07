@@ -4,12 +4,25 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script type="module" src="/Controller/firebase.js"></script>
-    <title>.::Brayham Orlando Lindarte Fuentes::.</title>
+    <script type="module" src="login.js"></script>
+    <link rel="stylesheet" href="/Style/diseño.css">
+    <link rel="icon" href="/Resourse/logo.jpg">
+
+    
+    <title>INICIO DE SESION</title>
 
 </head>
 
 <body>
 </body>
-
+    <div class="contenedor">
+        <h2>Inicia Sesion</h2>
+        <h3>Correo Electronico</h3>
+        <input type="text" id="email" placeholder="Email"> <br>
+        <h3>Contraseña</h3>
+        <input type="password" id="password" placeholder="Password"> <br>
+        <input type="submit" value="Login" onclick="login()">
+    </div>
 </html>
